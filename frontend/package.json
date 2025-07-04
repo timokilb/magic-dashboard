@@ -1,0 +1,14 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "Magic Dashboard Single-Page-Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "todo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timokilb/magic-dashboard"
+  },
+  "author": "timokilb",
+}
