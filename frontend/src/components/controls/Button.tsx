@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import { ReactElement, useState } from 'react'
 
 type ButtonProps = {
-    onClick: () => void
+  children: ReactElement
+  onClick: () => void
 }
 
 function Button(props: ButtonProps) {
@@ -10,9 +11,9 @@ function Button(props: ButtonProps) {
   return (
     <>
       <div>
-        Click me to upload
+        {props.children}
         <button
-        onClick={props.onClick}></button>
+          onClick={props.onClick}></button>
       </div>
 
     </>
